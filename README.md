@@ -50,7 +50,7 @@ Chaque solution sera dans un fichier séparé :
 git clone https://github.com/ElodieGuyard/camel_Case_Converter.git
 cd camel_Case_Converter
 ```
-###**2️⃣ Compiler et exécuter (si Maven est installé)**
+### **2️⃣ Compiler et exécuter (si Maven est installé)**
 ```sh
 mvn compile
 ```
