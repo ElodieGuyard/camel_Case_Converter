@@ -54,6 +54,17 @@ mvn compile
 ```sh
 mvn test
 ```
+### **📝 Exemples d'utilisation**
+src/main/java/com/example/Main.java
+```java
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println(toCamelCase("hello_World")) ;
+    }
+// Affiche : helloWorld
+```
 
 ## 🔥 Améliorations possibles
 
