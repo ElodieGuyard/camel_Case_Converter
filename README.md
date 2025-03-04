@@ -25,7 +25,7 @@ Je voudrais explorer **deux approches différentes** :
 
 ## 🚀 Fonctionnalités  
 ✔ Supprime les séparateurs (`_`) et met en majuscule la lettre suivante  
-✔ Fonctionne sur n'importe quelle combinaison de mots séparés par `_` 
+✔ Fonctionne sur n'importe quelle combinaison de mots séparés par `_` ou `-`
 
 ## 📂 Structure du projet
 
