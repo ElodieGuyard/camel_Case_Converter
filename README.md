@@ -13,10 +13,6 @@ Examples
 ```
 
 ## 📌 Objectif
-L'idée est de transformer une chaîne du type `"hello_world"` en `"helloWorld"`.  
-Je voudrais tester **deux approches** :
-1. **Boucle + Regex** → Simplicité et clarté : codé !
-2. **Pattern + Matcher** → Expérimentation avancée avec regex : à expérimenter
 
 Ce projet en Java permet de convertir une chaîne de caractères en **camelCase** comme par exemple `"hello_world"` en `"helloWorld"`. 
 Je voudrais explorer **deux approches différentes** :  
