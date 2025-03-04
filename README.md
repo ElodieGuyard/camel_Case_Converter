@@ -12,8 +12,6 @@ Examples
 "The_Stealth-Warrior" gets converted to "TheStealthWarrior"
 ```
 
-
-
 ## 📌 Objectif
 L'idée est de transformer une chaîne du type `"hello_world"` en `"helloWorld"`.  
 Je voudrais tester **deux approches** :
@@ -31,15 +29,15 @@ Je voudrais explorer **deux approches différentes** :
 
 ## 📂 Structure du projet
 
-camel-case-converter/
-│── src/ 
-│ ├── main/
-│ │ ├── java/com/example/CamelCaseConverter.java
-│ ├── test/
-│ │ ├── java/com/example/CamelCaseConverterTest.java
-│── pom.xml # Dépendances Maven
-│── README.md # Explication du projet
-│── .gitignore # Fichiers à ignorer
+camel-case-converter/  
+│── src/  
+│ ├── main/  
+│ │ ├── java/com/example/CamelCaseConverter.java  
+│ ├── test/  
+│ │ ├── java/com/example/CamelCaseConverterTest.java  
+│── pom.xml # Dépendances Maven  
+│── README.md # Explication du projet  
+│── .gitignore # Fichiers à ignorer  
 
 Chaque solution sera dans un fichier séparé :
 - **src/main/java/com/example/CamelCaseConverter.java** → Solution avec boucle et regex  
@@ -55,14 +53,13 @@ cd camel_Case_Converter
 ###**2️⃣ Compiler et exécuter (si Maven est installé)**
 ```sh
 mvn compile
-mvn exec:java -Dexec.mainClass="com.example.CamelCaseConverter"
 ```
 ### **3️⃣ Exécuter les tests**
 ```sh
 mvn test
 ```
 
-##🔥 Améliorations possibles
+## 🔥 Améliorations possibles
 
 🔹 Gérer d'autres séparateurs (-, .)
 🔹 Ajouter des tests unitaires en JUnit
