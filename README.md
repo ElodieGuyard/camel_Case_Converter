@@ -13,10 +13,6 @@ Examples
 ```
 
 ## 📌 Objectif
-L'idée est de transformer une chaîne du type `"hello_world"` en `"helloWorld"`.  
-Je voudrais tester **deux approches** :
-1. **Boucle + Regex** → Simplicité et clarté : codé !
-2. **Pattern + Matcher** → Expérimentation avancée avec regex : à expérimenter
 
 Ce projet en Java permet de convertir une chaîne de caractères en **camelCase** comme par exemple `"hello_world"` en `"helloWorld"`. 
 Je voudrais explorer **deux approches différentes** :  
@@ -25,7 +21,7 @@ Je voudrais explorer **deux approches différentes** :
 
 ## 🚀 Fonctionnalités  
 ✔ Supprime les séparateurs (`_`) et met en majuscule la lettre suivante  
-✔ Fonctionne sur n'importe quelle combinaison de mots séparés par `_` 
+✔ Fonctionne sur n'importe quelle combinaison de mots séparés par `_` ou `-`
 
 ## 📂 Structure du projet
 
@@ -50,13 +46,24 @@ Chaque solution sera dans un fichier séparé :
 git clone https://github.com/ElodieGuyard/camel_Case_Converter.git
 cd camel_Case_Converter
 ```
-###**2️⃣ Compiler et exécuter (si Maven est installé)**
+### **2️⃣ Compiler et exécuter (si Maven est installé)**
 ```sh
 mvn compile
 ```
 ### **3️⃣ Exécuter les tests**
 ```sh
 mvn test
+```
+### **📝 Exemples d'utilisation**
+src/main/java/com/example/Main.java
+```java
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println(toCamelCase("hello_World")) ;
+    }
+// Affiche : helloWorld
 ```
 
 ## 🔥 Améliorations possibles
