@@ -15,9 +15,9 @@ Examples
 ## 📌 Objectif
 
 Ce projet en Java permet de convertir une chaîne de caractères en **camelCase** comme par exemple `"hello_world"` en `"helloWorld"`. 
-Je voudrais explorer **deux approches différentes** :  
-1. **Boucle + Regex** → Simplicité et lisibilité  : codé !
-2. **Pattern + Matcher** → Utilisation avancée des regex en Java : coming soon
+J'explore **deux approches différentes** :  
+1. **Boucle + Regex** → Simplicité et lisibilité
+2. **Pattern + Matcher** → Utilisation avancée des regex en Java
 
 ## 🚀 Fonctionnalités  
 ✔ Supprime les séparateurs (`_`) et met en majuscule la lettre suivante  
@@ -29,13 +29,15 @@ camel-case-converter/
 │── src/  
 │ ├── main/  
 │ │ ├── java/com/example/CamelCaseConverter.java  
+│ │ ├── java/com/example/com.example.CamelCaseConverterRegex.java    
 │ ├── test/  
-│ │ ├── java/com/example/CamelCaseConverterTest.java  
+│ │ ├── java/camelcasetest.java  
+│ │ ├── java/camelcaseregextest.java
 │── pom.xml # Dépendances Maven  
 │── README.md # Explication du projet  
 │── .gitignore # Fichiers à ignorer  
 
-Chaque solution sera dans un fichier séparé :
+Chaque solution est dans un fichier séparé :
 - **src/main/java/com/example/CamelCaseConverter.java** → Solution avec boucle et regex  
 - **src/main/java/com/example/com.example.CamelCaseConverterRegex.java** → Solution avec Pattern + Matcher  
 
