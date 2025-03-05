@@ -6,5 +6,6 @@ public class camelcaseregextest {
     @Test
     void TestCamelCaseRegex() {
         assertEquals("helloWorld", tocamelcaseregex("hello_world"));
+        assertEquals("helloWorld", tocamelcaseregex("hello-world"));
     }
 }
