@@ -37,7 +37,7 @@ camel-case-converter/
 
 Chaque solution sera dans un fichier séparé :
 - **src/main/java/com/example/CamelCaseConverter.java** → Solution avec boucle et regex  
-- **src/main/java/com/example/CamelCaseConverterRegex.java** → Solution avec Pattern + Matcher  
+- **src/main/java/com/example/com.example.CamelCaseConverterRegex.java** → Solution avec Pattern + Matcher  
 
 ## 🛠️ Installation et Exécution  
 
