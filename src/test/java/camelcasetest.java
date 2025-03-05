@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static com.example.Main.toCamelCase;
+import static com.example.CamelCaseConverter.toCamelCase;
 import static org.junit.Assert.assertEquals;
 
 public class camelcasetest {
